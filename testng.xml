@@ -22,4 +22,10 @@
             </class>
         </classes>
     </test>
+    <test name="logout code">
+        <classes>
+            <class name="tests.LogoutTest">
+            </class>
+        </classes>
+    </test>
 </suite>
