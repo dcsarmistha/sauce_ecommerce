@@ -128,8 +128,8 @@ A GitHub Actions workflow is configured to automatically:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-**Your Name**
+Sarmistha DC
 
-If you found this project useful, feel free to fork it or leave a ⭐ on the repository.
+
