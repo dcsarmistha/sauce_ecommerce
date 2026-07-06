@@ -35,7 +35,7 @@ The framework automates the following user flows:
 ## Project Structure
 
 ```text
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -65,7 +65,6 @@ The framework automates the following user flows:
 * Automatic screenshots on test failures using TestNG Listeners
 * Easy-to-maintain project structure
 * GitHub Actions workflow for Continuous Integration
-
 ---
 
 ## Prerequisites
@@ -73,7 +72,7 @@ The framework automates the following user flows:
 * Java JDK 17 (or compatible version)
 * Maven
 * Google Chrome
-* ChromeDriver (or WebDriverManager if configured)
+* Webdriver Manager
 
 ---
 
@@ -122,9 +121,6 @@ A GitHub Actions workflow is configured to automatically:
 * Install Maven dependencies
 * Execute the TestNG test suite
 * Verify the project on every push or pull request
-
----
-
 
 ---
 
