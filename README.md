@@ -82,7 +82,7 @@ The framework automates the following user flows:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/dcsarmistha/sauce_ecommerce.git
 ```
 
 Navigate to the project:
