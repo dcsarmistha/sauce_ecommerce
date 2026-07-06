@@ -6,7 +6,7 @@ The framework is designed using the **Page Object Model (POM)** to improve code 
 
 ---
 
-## 🚀 Automated Test Scenarios
+## Automated Test Scenarios
 
 The framework automates the following user flows:
 
@@ -18,7 +18,7 @@ The framework automates the following user flows:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Java
 * Selenium WebDriver
@@ -32,7 +32,7 @@ The framework automates the following user flows:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ## 📂 Project Structure
@@ -105,7 +105,7 @@ mvn test
 
 ---
 
-## 📊 Test Reports
+## Test Reports
 
 After execution, the framework automatically generates:
 
@@ -114,7 +114,7 @@ After execution, the framework automatically generates:
 
 ---
 
-## 🔄 Continuous Integration
+## Continuous Integration
 
 A GitHub Actions workflow is configured to automatically:
 
