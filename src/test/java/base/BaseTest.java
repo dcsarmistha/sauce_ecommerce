@@ -25,13 +25,13 @@ public class BaseTest {
         WebDriverManager.edgedriver().setup();
 
         EdgeOptions options = new EdgeOptions();
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
+        if (headless) {
+            options.addArguments("--headless=new");
+        }
 
-        // disable Chrome password warning popup
-        options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
-
         options.addArguments("--disable-dev-shm-usage");
-
         options.addArguments("--window-size=1920,1080");
         options.setExperimentalOption(
                 "prefs",
@@ -42,6 +42,7 @@ public class BaseTest {
         );
 
         driver.set(new EdgeDriver(options));
+        getDriver().manage().window().maximize();
     }
 
     @AfterMethod
