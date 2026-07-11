@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="sauce demo suite" parallel="tests" thread-count="3">
+<suite name="sauce demo suite">
 <listeners>
     <listener class-name="listeners.TestListener">
     </listener>
@@ -13,12 +13,18 @@
     </test>
     <test name="Add to cart">
         <classes>
-            <class name="tests.AddToCartTest"/>
+            <class name="tests.CartTest"/>
         </classes>
         </test>
     <test name="CheckOut ">
         <classes>
             <class name="tests.CheckOutTest">
+            </class>
+        </classes>
+    </test>
+    <test name="logout code">
+        <classes>
+            <class name="tests.LogoutTest">
             </class>
         </classes>
     </test>

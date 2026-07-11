@@ -32,7 +32,7 @@ jobs:
 
 
       - name: Run Selenium Tests
-        run: mvn clean test
+        run: mvn test -Dheadless=true
 
 
       - name: Upload Extent Report
