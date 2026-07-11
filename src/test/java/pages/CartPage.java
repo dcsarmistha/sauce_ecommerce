@@ -7,14 +7,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class AddToCartPage {
+public class CartPage {
 
     WebDriver driver;
     WebDriverWait wait;
     By productCart= By.id("add-to-cart-sauce-labs-backpack");
     By cartBadge = By.xpath("//span[@data-test='shopping-cart-badge']");
     By added= By.xpath("//div[text()='Sauce Labs Backpack']");
-    public AddToCartPage(WebDriver driver){
+    By removed= By.id("remove-sauce-labs-backpack");
+    public CartPage(WebDriver driver){
         this.driver= driver;
         wait= new WebDriverWait(driver, Duration.ofSeconds(30));
     }
@@ -24,6 +25,9 @@ public class AddToCartPage {
     }
     public String cartAdded(){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(added)).getText();
+    }
+    public void removeCart(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(removed)).click();
     }
 
 }

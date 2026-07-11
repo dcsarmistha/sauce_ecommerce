@@ -13,7 +13,7 @@
     </test>
     <test name="Add to cart">
         <classes>
-            <class name="tests.AddToCartTest"/>
+            <class name="tests.CartTest"/>
         </classes>
         </test>
     <test name="CheckOut ">
